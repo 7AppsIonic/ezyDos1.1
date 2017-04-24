@@ -1,0 +1,50 @@
+<ion-view>
+  <ion-nav-title>Welcome All Hajj Pilgrims</ion-nav-title>
+  <ion-content padding="true">
+    <br>
+    <form name="form.search" ng-submit="form.search.$valid && goToList()">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" ng-model="search.string" required="required" placeholder="Search by best price, packages or currencies">
+      </label><div align="center"><img src="img/ezymekahicon4.png" width="300" height="120"></div>
+      <br />
+      <div>
+        <label class="checkbox" style="display:flex; align-items: center">
+          <input type="checkbox" ng-model="search.satTrans" style="margin-right: 20px;">
+          All Hajj Locations (Satellite View)
+        </label>
+      </div>
+      <div>
+        <label class="checkbox" style="display:flex; align-items: center">
+          <input type="checkbox" ng-model="search.wheelChair" style="margin-right: 20px;">
+          All Hajj Accomodations Itinery
+        </label>
+      </div>
+      <div>
+        <label class="checkbox" style="display:flex; align-items: center">
+          <input type="checkbox" ng-model="search.wheelChairLift" style="margin-right: 20px;">
+          All Hajj/ Umrah Packages
+        </label>
+      </div>
+      <button class="button button-positive button-block" ng-disabled="form.search.$invalid"><b>Search for Listings Now!</b></button>
+    </form>
+    <h4>Top Hajj/Umrah Travel Agencies</h4>
+    <ion-list>
+      <ion-item class="item-icon-right item-avatar item-assertive" ui-sref="detail({id: event.id})" ng-repeat="event in events track by event.id | limitTo:limit">
+        <img ng-src="{{event.thumb}}">
+        <h2 class="positive">{{event.name}}</h2>
+        <p>
+          <b>{{event.city}}</b> / District {{event.district}}<br>
+          {{event.street}} {{event.number}}, {{event.zip}} {{event.city}}
+        </p>
+        <i class="icon ion-ios-arrow-right"></i>
+      </ion-item>
+      <ion-item class="text-center item-light" ng-if="events && !events.length">No listings found :(</ion-item>
+    </ion-list>
+    <ion-infinite-scroll
+      ng-if="!events"
+      on-infinite="loadNext()">
+    </ion-infinite-scroll>
+    <p>
+  </ion-content>
+</ion-view>
