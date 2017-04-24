@@ -35,13 +35,13 @@ Type in 'Mekah', 'Mosque', 'Black Stone' or 'Riyadh'
 
 ## Impressions
 
+<img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/1.1.png" height="400">
+<img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/6.png" height="400">
 <img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/1.png" height="400">
 <img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/2.png" height="400">
 <img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/3.png" height="400">
 <img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/4.png" height="400">
 <img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/5.png" height="400">
-<img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/6.png" height="400">
-<img src="https://github.com/7AppsIonic/ezyDos1.1/blob/master/www/img/1.png" height="400">
 
 
 
