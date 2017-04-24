@@ -1,17 +1,4 @@
-# ionic-starter-eventmaps
-
-![ionic-starter-eventmaps](https://cloud.githubusercontent.com/assets/2264672/9698084/bf4d7c4e-53a7-11e5-8fc2-c8b87db876c9.png)
-
-This is an addon starter template based on my [ionic-starter-requirejs template](https://github.com/KillerCodeMonkey/ionic-starter-requirejs) for the [Ionic Framework](http://ionicframework.com/). It is a base event app with the usage of Google Maps (custom directive).
-
-## How to use this template
-
-To use this, either create a new ionic project using the ionic node.js utility, or copy and paste this into an existing Cordova project.
-
-Or use the files from ionic market:
-[Go](http://market.ionic.io/starters/event-app-and-maps)
-
-It is a clean project without external dependencies!
+# eZyDos Ver1.1-with events cluster
 
 ## Configuring the project
 
@@ -30,7 +17,7 @@ $scope.apiKey = 'YOUR_API_KEY_HERE';
 ## Example data
 
 Finding something in the demo content:
-Type in 'Berlin', 'Ber', 'Sports' or 'Düsseldorf'
+Type in 'Mekah', 'Mosque', 'Black Stone' or 'Riyadh'
 
 ## Content
 
